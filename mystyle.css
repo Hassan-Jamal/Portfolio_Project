@@ -60,4 +60,51 @@ height: 20px;
 margin-left: 25px;
 }
 
+.work-Section{
+    border: 2px solid red;
+    display: grid;
+    font-family: 'Poppins',sans-serif;
 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 552px;
+    width: 327px;
+    align-self: center;
+
+}
+
+.image{
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+    background-image: url(avocode.png);
+    align-self: center;
+    background-position:center;
+    background-size: cover;
+    margin-top:20px ;
+}
+
+.tonic{
+margin-left: 18px;}
+
+.layout{
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    margin-left: 20px;
+}
+
+.dev{
+    margin-left: 10px;
+    color: #7A869A;
+}
