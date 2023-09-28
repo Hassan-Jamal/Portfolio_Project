@@ -63,7 +63,7 @@ margin-left: 25px;
 .work-Section{
     border: 2px solid red;
     display: grid;
-    font-family: 'Poppins',sans-serif;
+    
 
 }
 
@@ -74,7 +74,7 @@ margin-left: 25px;
     height: 552px;
     width: 327px;
     align-self: center;
-
+    font-family: 'Poppins',sans-serif;
 }
 
 .image{
@@ -89,13 +89,20 @@ margin-left: 25px;
 }
 
 .tonic{
-margin-left: 18px;}
+margin-left: 18px;
+border: 2px solid red;
+}
 
 .layout{
     display: flex;
     height: auto;
     width: auto;
     align-items: center;
+    font-size: small;
+    margin-left: 19px;
+    padding-bottom: 30px;
+    border: 2px solid red;
+    
 }
 
 .dot{
@@ -108,3 +115,51 @@ margin-left: 18px;}
     margin-left: 10px;
     color: #7A869A;
 }
+
+.para1{
+ 
+ border: 2px solid red;
+ font-size: 15px;
+font-weight: 400;
+line-height: 24px; 
+width: 295px;
+height: 76px;
+margin-left: 20px;
+ }
+
+ .buttons{
+    display: flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+line-height: 16px; 
+letter-spacing: 0.36px;
+margin-left: 20px;
+ }
+
+ .buttons h4{
+    padding: 4px 12px;
+align-items: center;
+background-color: #6070FF;
+border-radius: 8px;
+margin-left: 20px;
+
+ }
+
+ .See{
+    border: 1px solid var(--primary-b-400, #6070FF);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    color: var(--primary-b-500, #396DF2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 15px;
+    letter-spacing: 0.51px; 
+margin-left: 20px;
+width: 100px;}
