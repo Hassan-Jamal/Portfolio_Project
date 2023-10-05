@@ -2,141 +2,184 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio_Project </title>
+    <meta name="viewport" content="width=device-width, initialv-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./mystyle.css">
 </head>
-<link rel="stylesheet" href="mystyle.css">
 <body>
-    <header class="container">
-<div class="logo"><b>My Logo</b></div>
-<div class="menu">
-    <img src="Icon - Menu.svg" alt="Menu-Bar">
-</div>
- </header>
- <div class="headline">
-    <b class="primary-text">
-        <p >I'm Hassan Jamal.<br>Glad to see you!</p>
-    </b>
-    <p class="description">I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-    <h4 class="lets-connect">LET'S CONNECT</h4>
-    <img src="./social media icons.png" alt="Social Media Icons" class="social-media-icons">
-</div>
-
-<div class="work-section">
-    <div class="section">
-    <div class="card">
-        <div class="snapshoot">
+    <div class="navbar">
+        <h1 class="logo">My Logo</h1>
+        <img src="./Menu.svg" alt="menu icon" class="menu">
+        <div class="navbar-links">
+            <a href="#work-section" class="navbar-link">Portfolio</a>
+            <a href="#about" class="navbar-link">About</a>
+            <a href="#contact" class="navbar-link">Contact</a>
         </div>
-        
-            <h1 class="title">Tonic</h1>
-            <div class="role">
-                <h4>Canopy</h4>
-                <img src="./Counter.png" alt="circle">
-                <h4 class="basic-text">Back End Dev</h4>
-                <img src="./Counter.png" alt="circle">
-                <h4 class="basic-text">2023</h4>
+    </div>
+    <div class="HeadLine">
+        <h1 class="intro">I'm Hassan Jamal. Glad to see you!</h1>
+        <p class="para">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+        <h3 class="connect">Let's Connect</h3>
+        <img src="./SocialMedia.svg" alt="Social Media Icons" class="lets-connect">
+    </div>
+    <div id="work-section" class="worksection">
+        <div class="memo">
+            <div class="img">
+                <img class="mob-hide" src="./Desktop/Snapshoot1.png" alt="memo1">
+                <img class="pc-hide" src="./Snapshoot1.png" alt="memo1">
             </div>
-            <div class="project-description">
+            <div class="AboutCard">
+                <h1>Tonic</h1>
+                <div class="techs">
+                    <h3 class="tech-item no-margin">Canopy</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item">Back End Dev</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item">2015</h3>
+                </div>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <div class="proj-lang">
-                    <h6>HTML</h6>
-                    <h6>CSS</h6>
-                    <h6>JavaScript</h6>
+                <ul>
+                    <li class="lang-list">HTML</li>
+                    <li class="lang-list margin">CSS</li>
+                    <li class="lang-list margin">Javascript</li>
+                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
+                </ul>
+                <button class="project">See Project</button>
+            </div>
+        </div>
+        <div class="memo reverse-memo">
+            <div class="img">
+                <img class="mob-hide" src="./Desktop/Snapshoot2.png" alt="memo2">
+                <img class="pc-hide" src="./Snapshoot2.png" alt="memo2">
+            </div>
+            <div class="AboutCard">
+                <h1 class="pc-hide">Multi Post Stories</h1>
+                <h1 class="mob-hide">Multi Post Stories</h1>
+                <div class="techs">
+                    <h3 class="tech-item no-margin mob-hide">Facebook</h3>
+                    <h3 class="tech-item no-margin pc-hide">Canopy</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item pc-hide">Back End Dev</h3>
+                    <h3 class="tech-item mob-hide">Full Stack Dev</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item">2015</h3>
+                </div>
+                <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <p class="mob-hide">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                <ul>
+                    <li class="lang-list">HTML</li>
+                    <li class="lang-list margin">CSS</li>
+                    <li class="lang-list margin">Javascript</li>
+                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
+                </ul>
+                <button class="project">See Project</button>
+            </div>
+        </div>
+        <div class="memo">
+            <div class="img">
+                <img class="mob-hide" src="./Desktop/Snapshoot3.png" alt="memo3">
+                <img class="pc-hide" src="./Snapshoot3.png" alt="memo3">
+            </div>
+            <div class="AboutCard">
+                <h1 class="pc-hide">Tonic</h1>
+                <h1 class="mob-hide">Facebook 360</h1>
+                <div class="techs">
+                    <h3 class="tech-item no-margin mob-hide">Facebook</h3>
+                    <h3 class="tech-item no-margin pc-hide">Canopy</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item pc-hide">Back End Dev</h3>
+                    <h3 class="tech-item mob-hide">Full Stack Dev</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item">2015</h3>
+                </div>
+                <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <p class="mob-hide">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                <ul>
+                    <li class="lang-list">HTML</li>
+                    <li class="lang-list margin">CSS</li>
+                    <li class="lang-list margin">Javascript</li>
+                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
+                </ul>
+                <button class="project">See Project</button>
+            </div>
+        </div>
+        </div>
+        <div class="memo reverse-memo">
+            <div class="img">
+                <img class="mob-hide" src="./Desktop/Snapshoot4.png" alt="memo4">
+                <img class="pc-hide" src="./Snapshoot4.png" alt="memo4">
+            </div>
+            <div class="AboutCard">
+                <h1 class="mob-hide">Uber Navigation</h1>
+                <h1 class="pc-hide">Multi Post Stories</h1>
+                <div class="techs">
+                    <h3 class="tech-item no-margin pc-hide">Canopy</h3>
+                    <h3 class="tech-item no-margin mob-hide">Uber</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item pc-hide">Back End Dev</h3>
+                    <h3 class="tech-item mob-hide">Lead Developer</h3>
+                    <img src="./Counter.svg" alt="">
+                    <h3 class="tech-item">2015</h3>
+                </div>
+                <p class="pc-hide">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <p class="mob-hide">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                <ul>
+                    <li class="lang-list">HTML</li>
+                    <li class="lang-list margin">CSS</li>
+                    <li class="lang-list margin">Javascript</li>
+                    <li  class="mob-hide lang-list margin">Ruby on rails</li>
+                </ul>
+                <button class="project">See Project</button>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="skills">
+        <div class="details">
+            <h1>About Myself</h1>
+            <p>Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+            <h3 class="connect-skills">Let's Connect</h3>
+            <img src="./SocialMedia.svg" alt="social media icons" class="lets-connect-skills">
+            <button class="resume" >Get my resume</button>
+        </div>
+        <div class="langs">
+            <div class="list-header">
+                <h3>Languages</h3>
+                <img src="./arrowdown.svg" alt="arrow">
+            </div>
+            <div class="languages">
+                <div class="lang-item">
+                    <img src="./js.svg" alt="">
+                    <h3>Javascript</h3>
+                </div>
+                <div class="lang-item">
+                    <img src="./html.svg" alt="">
+                    <h3>HTML</h3>
+                </div>
+                <div class="lang-item">
+                    <img src="./css.svg" alt="">
+                    <h3>CSS</h3>
                 </div>
             </div>
-            <h4 class="proj-button">See Project</h4>
-        
-    </div>
-</div>
-
-<div class="section">
-    <div class="card">
-        <div class="snapshoot snap2"></div>
-        <h1 class="title">Multi-Post Stories</h1>
-        <div class="role">
-            <h4>Canopy</h4>
-            <img src="./Counter.png" alt="circle">
-            <h4 class="basic-text">Back End Dev</h4>
-            <img src="./Counter.png" alt="circle">
-            <h4 class="basic-text">2023</h4>
-        </div>
-        <div class="project-description">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <div class="proj-lang">
-                <h6>HTML</h6>
-                <h6>CSS</h6>
-                <h6>JavaScript</h6>
+            <div class="list-header border">
+                <h3>Frameworks</h3>
+                <img src="./arrow.svg" alt="arrow">
+            </div>
+            <div class="list-header border">
+                <h3>Skills</h3>
+                <img src="./arrow.svg" alt="arrow">
             </div>
         </div>
-        <h4 class="proj-button">See Project</h4>
     </div>
-</div>
-
-<div class="section">
-    <div class="card">
-        <div class="snapshoot snap3"></div>
-        <h1 class="title">Multi-Post Stories</h1>
-        <div class="role">
-            <h4>Canopy</h4>
-            <img src="./Counter.png" alt="circle">
-            <h4 class="basic-text">Back End Dev</h4>
-            <img src="./Counter.png" alt="circle">
-            <h4 class="basic-text">2023</h4>
-        </div>
-        <div class="project-description">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <div class="proj-lang">
-                <h6>HTML</h6>
-                <h6>CSS</h6>
-                <h6>JavaScript</h6>
-            </div>
-        </div>
-        <h4 class="proj-button">See Project</h4>
+    <div id="contact" class="contact-form">
+        <h1>Contact me</h1>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
+        <form class="form" action="https://formspree.io/f/xleyodbz" method="post">
+            <input class="name" name="full-name" type="text" placeholder="Name" required>
+            <input class="name" name="email" type="email" placeholder="Email" required>
+            <textarea class="text" name="message" type="text" placeholder="Enter your message here..." required></textarea>
+            <button class="submit">Get in touch</button>
+        </form>
+        <div class="footer"></div>
     </div>
-</div>
-
-<div class = "about">
-    <h1 class="about-head" >About Myself</h1>
-    <h6 class="about-description" >Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</h6>
-    <div class="social-media">
-        <h4 class="lets-connect">LET'S CONNECT</h4>
-    </div>
-    <img src="./social media icons.png" alt="Social Media Icons" class="social-media-icons">
-    <h4 class="resume">Get my Resume</h4>
-</div>
-
-<div class = "skills">
-    <div class="skills-heading">
-        <h3>Languages</h3>
-        <img  class ="arrow" src="./arrowdown.png" alt="arrow">
-    </div>
-    <ul class="langs">
-        <li><img src="./JS.png" alt="Javascript"><h4>JavaScript</h4></li>
-        <li><img src="./HTML.png" alt="Javascript"><h4>HTML</h4></li>
-        <li><img src="./CSS.png" alt="Javascript"><h4>CSS</h4></li>
-    </ul>
-    <div class="skills-heading border">
-        <h3>Frameworks </h3>
-        <img  class ="arrow" src="./arrowright.png" alt="arrow">
-    </div>
-    <div class="skills-heading margin border">
-        <h3>Skills </h3> 
-        <img class ="arrow"src="./arrowright.png" alt="arrow">
-    </div>
-</div>
-</div>
-
-<div class="contact-form">
-    <div class="background">
-    <h1 class= "contact">Contact Me</h1>
-    <p class="contact-about">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
-    <form class="form" action="https://formspree.io/f/mqkvgqod" method="post">
-        <input name="email" class="form-email" placeholder="Email" maxlength="" required>
-        <input name="full-name" class="form-email" placeholder="Name" maxlength="30" required>
-        <textarea name="message" class="form-message" placeholder="Write youe message here..." maxlength="500" required></textarea>
-        <button class="send-button">Get in Touch</button>
-    </form>
-</div>
-</div>
 </body>
 </html>
